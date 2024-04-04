@@ -16,6 +16,15 @@ override_mapping = lambda do |mapping|
 	mapping[0][61] = 68 # Set key_id 61 (right side of space) = 68 (super)
 	mapping[0][62] = 71
 	mapping[0][63] = 74
+
+	mapping[0][30] = 67 # L-CTRL
+	mapping[0][56] = 42 # Caps Lock
+	mapping[0][58] = 69 # Left-Alt
+	mapping[0][59] = 68 # Left-Super
+	mapping[0][61] = 72 # Right-Super
+	mapping[0][63] = 156 # R-Fn
+	mapping[1][63] = 156 # R-Fn
+	mapping[2][63] = 156 # R-Fn
 end
 
 #################################################################
